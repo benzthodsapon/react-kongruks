@@ -1,0 +1,42 @@
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+label{
+    font-size: 20px;
+    margin-right: 5px;
+}
+input{
+    font-size: 20px;
+    padding: 7px;
+    border: 2px solid;
+    border-radius: 10px;
+    flex-grow: 1;
+    margin: 10px;
+}
+input:focus{
+    outline: none;
+}
+.btn-add{
+    font-size: 20px;
+    padding: 7px 10px;
+    margin: 10px;
+    background-color: green;
+    border-radius: 10px;
+}
+select{
+    font-size: 20px;
+    padding: 7px 26px;
+    margin:10px;
+    border-radius: 10px;
+
+}

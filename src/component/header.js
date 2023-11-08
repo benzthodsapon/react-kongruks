@@ -1,6 +1,12 @@
-
-export default function Header(){
+import Logo from "../image/logo.png"
+import "./Header.css"
+export default function Header(props){
+    // const {tittle} = props
     return(
-        <h1>Benz Thodsapon</h1>
+        <nav>
+            <img className="logo" src={Logo} alt="logo"></img>
+            <a href="/">{props.tittle}</a>
+        </nav>
+        
     );
 }
